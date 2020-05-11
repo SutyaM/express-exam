@@ -1,9 +1,9 @@
 {
-  "name": "express-typescript-skeleton",
-  "author": "Zsolt Tasnádi",
+  "name": "flat-api",
+  "author": "Miklos Sutya",
   "license": "ISC",
   "version": "1.2.0",
-  "description": "",
+  "description": "Theta express exam",
   "scripts": {
     "build": "webpack",
     "dev": "concurrently \"webpack -w\" \"nodemon build/bundle.js\"",
@@ -31,5 +31,13 @@
     "swagger-express-middleware": "^2.0.5",
     "webpack-node-externals": "^1.7.2"
   },
-  "main": "src/index.ts"
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SutyaM/express-exam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SutyaM/express-exam/issues"
+  },
+  "homepage": "https://github.com/SutyaM/express-exam#readme"
 }
