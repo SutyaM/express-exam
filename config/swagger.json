@@ -2,7 +2,6 @@
   "swagger": "2.0",
   "info": {
     "title": "Express Typescript Skeleton",
-    "version": "1.0.0"
   },
   "schemes": [
     "http"
@@ -14,24 +13,13 @@
     "application/json"
   ],
   "paths": {
-    "/flat": {
+    "/": {
       "get": {
-        "summary": "Get all flats",
-        "parameters": [
-          {
-            "in": "query",
-            "name": "limit",
-            "type": "string"
-          },
-          {
-            "in": "query",
-            "name": "offset",
-            "type": "string"
-          }
-        ],
+        "summary": "Hello World",
+        "operationId": "helloWorld",
         "responses": {
           "200": {
-            "description": ""
+            "description": "Return with Hello World message"
           }
         }
       }
