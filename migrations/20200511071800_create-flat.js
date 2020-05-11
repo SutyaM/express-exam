@@ -6,7 +6,7 @@ exports.up = function(knex) {
     table.integer('floorArea');
     table.string('country');
     table.integer('zip');
-    table.string('string');
+    table.string('city');
     table.string('street');
   })
 };
